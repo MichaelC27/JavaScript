@@ -1,0 +1,12 @@
+{
+  "name": "holamundo",
+  "version": "1.0.0",
+  "description": "ejercicio hola mundo",
+  "main": "index.js",
+  "scripts": {
+    "hola":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Cordones",
+  "license": "ISC"
+}

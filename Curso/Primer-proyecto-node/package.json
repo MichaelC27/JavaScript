@@ -1,0 +1,16 @@
+{
+  "name": "primer-proyecto-node",
+  "version": "1.0.0",
+  "description": "Este es mi pimer proyecto de javascritp ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "saludar":"node hola-mundo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Holamundo"
+  ],
+  "author": "Michael Cordones",
+  "license": "ISC"
+}
