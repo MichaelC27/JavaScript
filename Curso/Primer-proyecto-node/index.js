@@ -1,2 +1,5 @@
-//Este es el mensaje d bienvenida
-console.log("Esta es la puerta de entrada al proyecto");
+let a = 2
+
+while (a=2){
+    console.log("eres puto");
+}
