@@ -1,13 +1,7 @@
-let lista = ["h","o","l","a"];
-
-
-for (let a = 0; a < lista.length;a++) {
-
-    console.log(lista[a])
-}
-
-console.log(lista.length);
-
-lista.forEach(a => {
-    console.log(a)
-})
+let cadena = "Hola mundo como estan hoy"
+let a = "2"
+/*console.log(cadena.slice())
+let b=parseInt(a)
+console.log(typeof(b))
+*/
+console.log(cadena.sort())
