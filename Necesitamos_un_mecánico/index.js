@@ -12,7 +12,7 @@ function checkPart(part) {
   }
 
 
-   
+   console.log("hola")
   
 
   console.log(esValida("miidim"))
