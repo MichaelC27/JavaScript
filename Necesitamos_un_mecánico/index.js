@@ -10,9 +10,3 @@ function checkPart(part) {
     }
     return true;
   }
-
-
-   console.log("hola")
-  
-
-  console.log(esValida("miidim"))
