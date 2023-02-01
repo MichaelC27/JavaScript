@@ -1,5 +1,14 @@
 const year = 1985;
-const holidays = ['01/01', '01/06', '02/02', '02/17', '02/28', '06/03', '12/06', '12/25']
+const holidays = [
+  "01/01",
+  "01/06",
+  "02/02",
+  "02/17",
+  "02/28",
+  "06/03",
+  "12/06",
+  "12/25",
+];
 
 function countHours(year, holidays) {
   var anno = year.toString();
@@ -20,17 +29,14 @@ function countHours(year, holidays) {
           if (feriados.getTime() == fechasyear.getTime()) {
             console.log(sema);
             conta = 1;
-            console.log(conta)
-            
+            console.log(conta);
           }
-          return conta
+          return conta;
         }
-        
       });
     }
-    
   }
-  const diashoras = fechafin.filter( codigo => codigo === 1)
+  const diashoras = fechafin.filter((codigo) => codigo === 1);
   let trab = diashoras.length;
   console.log(trab);
   dias = 1 * trab;

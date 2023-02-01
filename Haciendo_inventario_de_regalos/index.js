@@ -14,9 +14,9 @@ function getGiftsToRefill(a1, a2, a3) {
   let a3_A = a3.filter((gifts, index) => a3.indexOf(gifts) == index);
 
   //Concatenando iventario general con el de por alamcen
-  let gifts_Alm = [...a1_A,...inventario];
-  let gifts_Alm2 = [...a2_A,...inventario];
-  let gifts_Alm3 = [...a3_A,...inventario];
+  let gifts_Alm = [...a1_A, ...inventario];
+  let gifts_Alm2 = [...a2_A, ...inventario];
+  let gifts_Alm3 = [...a3_A, ...inventario];
   //Filtrando regalos los regalos que faltan por alacen
   let inve_Alm1 = gifts_Alm.filter(
     (gifts, index) => gifts_Alm.indexOf(gifts) === gifts_Alm.lastIndexOf(gifts)
@@ -30,7 +30,7 @@ function getGiftsToRefill(a1, a2, a3) {
       gifts_Alm3.indexOf(gifts) === gifts_Alm3.lastIndexOf(gifts)
   );
 
- let  inventario_F = [...inve_Alm3, ...inve_Alm2, ...inve_Alm1];
+  let inventario_F = [...inve_Alm3, ...inve_Alm2, ...inve_Alm1];
 
   let gifts_Fal = inventario_F.filter(
     (gifts, index) => inventario_F.indexOf(gifts) !== index
@@ -38,4 +38,4 @@ function getGiftsToRefill(a1, a2, a3) {
   return gifts_Fal;
 }
 
-console.log( getGiftsToRefill(['a', 'a'], ['b', 'b'], ['c', 'c']))
+console.log(getGiftsToRefill(["a", "a"], ["b", "b"], ["c", "c"]));
